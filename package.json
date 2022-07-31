@@ -1,0 +1,42 @@
+{
+  "name": "vs-overhaul-dark",
+  "displayName": "VS Overhaul Dark+",
+  "description": "VS Overhaul Dark+",
+  "version": "0.0.1",
+  "icon": "logo.png",
+  "publisher": "Ultimatepritam",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultimatepritam/vs-overhaul-dark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "overhaul",
+    "vs overhaul",
+    "vs overhaul dark",
+    "vs overhaul dark+",
+    "vs code overhaul",
+    "vs code overhaul dark",
+    "vs code overhaul dark+",
+    "Extra dark",
+    "vs theme",
+    "visual studio theme",
+    "slate"
+  ],
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VS Overhaul Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/VS Overhaul Dark+-color-theme.json"
+      }
+    ]
+  }
+}
